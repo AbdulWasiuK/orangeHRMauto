@@ -24,7 +24,7 @@ public class setUps {
         System.setProperty("webdriver.chrome.driver", "resources/chromedriver.exe");
 
         //Instantiate webDriver object
-        WebDriver driver = new ChromeDriver();
+        driver = new ChromeDriver();
 
         // Maximize the window
         driver.manage().window().maximize();
